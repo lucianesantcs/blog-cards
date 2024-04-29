@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-optical-sizing: auto;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*::after,
+*::before,
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: calc(1.6rem * 1.5);
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 90rem;
+  grid-template-rows: 1fr 1fr;
+  display: grid;
+  padding: 1.6rem;
+
+  .content {
+    grid-row: 1 / 2;
+  }
+
+  .footer {
+    grid-row: 3 / 4;
+    font-size: 1.2rem;
+  }
+}
