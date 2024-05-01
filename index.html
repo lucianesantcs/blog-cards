@@ -1,12 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS + SASS</title>
+    <title>Blog cards</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div class="container">
+      <header class="header">
+        <h1>Blog cards</h1>
+        <form>
+          <input type="text" placeholder="What are you looking for?" />
+        </form>
+      </header>
+      <main>
+        <section>
+          <ul class="cards">
+            <li>
+              <article class="card">
+                <img src="" alt="" />
+                <div class="content">
+                  <div class="category">Learning</div>
+                  <p class="date">Published 21 Dec 2023</p>
+                  <h1 class="title">HTML & CSS foundations</h1>
+                  <p class="description">
+                    These languages are the backbone of every website, defining
+                    structure, content, and presentation.
+                  </p>
+                </div>
+                <div class="author">
+                  <img src="" alt="" />
+                  <p class="title">Greg Hooper</p>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
