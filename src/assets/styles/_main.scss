@@ -1,0 +1,91 @@
+@use "../styles/base" as *;
+
+.container {
+  min-width: 100%;
+  max-width: 90rem;
+  display: grid;
+  justify-content: center;
+
+  .header {
+    align-self: center;
+
+    & > .title {
+      @include heading;
+    }
+
+    form {
+      input {
+        @include body-small-regular;
+
+        padding: 0.8rem 1.6rem;
+        border-radius: 2rem;
+        border: 1px solid $black;
+        outline: 1px solid $yellow;
+      }
+    }
+  }
+
+  main {
+    section {
+      .cards {
+        li {
+          list-style: none;
+        }
+
+        .card {
+          max-width: 38.4rem;
+          display: grid;
+          gap: 2.4rem;
+          padding: 2.4rem;
+          border-radius: 2rem;
+          border: 1px solid $black;
+          background-color: $pure-white;
+
+          img {
+            width: 33.6rem;
+          }
+
+          .content {
+            display: grid;
+            gap: 1.2rem;
+
+            .category {
+              @include body-small-bold;
+
+              max-width: 8.2rem;
+              padding: 0.4rem 0.8rem;
+              background-color: $yellow;
+              border-radius: 0.4rem;
+            }
+
+            .date {
+              @include body-small-regular;
+            }
+
+            .title {
+              @include heading;
+            }
+
+            .description {
+              @include body-medium($color: $grey);
+            }
+          }
+
+          .author {
+            display: flex;
+            gap: 1.6rem;
+
+            img {
+              width: 3.2rem;
+              height: 3.2rem;
+            }
+
+            & > .title {
+              @include body-small-bold;
+            }
+          }
+        }
+      }
+    }
+  }
+}
