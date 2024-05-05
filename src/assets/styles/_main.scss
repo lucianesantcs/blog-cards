@@ -31,7 +31,7 @@
       .cards {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(38.4rem, 1fr));
-        gap: 1.6rem;
+        gap: 2.4rem;
 
         li {
           list-style: none;
@@ -83,7 +83,30 @@
               }
 
               .title {
-                @include heading;
+                a {
+                  @include heading;
+                  transition: all 0.2s ease-in-out;
+
+                  text-decoration: none;
+
+                  &:hover {
+                    &.html {
+                      color: $orange;
+                    }
+
+                    &.sass {
+                      color: $pink;
+                    }
+
+                    &.typescript {
+                      color: $blue;
+                    }
+
+                    &.javascript {
+                      color: $yellow;
+                    }
+                  }
+                }
               }
 
               .description {
