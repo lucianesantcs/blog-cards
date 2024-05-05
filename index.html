@@ -9,35 +9,129 @@
     <div class="container">
       <header class="header">
         <h1 class="title">Blog cards</h1>
-        <form>
-          <input type="text" placeholder="What are you looking for?" />
-        </form>
+        <input
+          type="text"
+          placeholder="What are you looking for?"
+          id="search-input"
+        />
       </header>
       <main>
         <section>
-          <ul class="cards">
-            <li>
-              <article class="card">
-                <img src="./public/images/illustration-article.svg" alt="illustration article" />
+          <ul class="cards" id="cards">
+            <li class="card" id="card">
+              <article>
+                <img
+                  src="/images/html-illustration-article.svg"
+                  alt="illustration article"
+                />
                 <div class="content">
                   <div class="category">Learning</div>
-                  <p class="date">Published 21 Dec 2023</p>
-                  <h1 class="title">HTML & CSS foundations</h1>
+                  <p class="date">Published 1 May 2024</p>
+                  <h1 class="title" id="title">HTML & CSS foundations</h1>
                   <p class="description">
                     These languages are the backbone of every website, defining
                     structure, content, and presentation.
                   </p>
                 </div>
                 <div class="author">
-                  <img src="./public/images/image-avatar.webp" alt="profile user avatar" />
+                  <img
+                    src="/images/image-avatar.webp"
+                    alt="profile user avatar"
+                  />
                   <p class="title">Greg Hooper</p>
                 </div>
+              </article>
+            </li>
+            <li class="card" id="card">
+              <article>
+                <img
+                  src="/images/sass-illustration-article.svg"
+                  alt="illustration article"
+                />
+                <div class="content">
+                  <div class="category">Learning</div>
+                  <p class="date">Published 21 Jan 2024</p>
+                  <h1 class="title" id="title">Sass styling</h1>
+                  <p class="description">
+                    These languages are the backbone of every website, defining
+                    structure, content, and presentation.
+                  </p>
+                </div>
+                <div class="author">
+                  <img
+                    src="/images/image-avatar.webp"
+                    alt="profile user avatar"
+                  />
+                  <p class="title">Greg Hooper</p>
+                </div>
+              </article>
+            </li>
+            <li class="card" id="card">
+              <article>
+                <img
+                  src="/images/typescript-illustration-article.svg"
+                  alt="illustration article"
+                />
+                <div class="content">
+                  <div class="category">Learning</div>
+                  <p class="date">Published 11 April 2024</p>
+                  <h1 class="title" id="title">Typescript MasterClass</h1>
+                  <p class="description">
+                    These languages are the backbone of every website, defining
+                    structure, content, and presentation.
+                  </p>
+                </div>
+                <div class="author">
+                  <img
+                    src="/images/image-avatar.webp"
+                    alt="profile user avatar"
+                  />
+                  <p class="title">Greg Hooper</p>
+                </div>
+              </article>
+            </li>
+            <li class="card" id="card">
+              <article>
+                <img
+                  src="/images/javascript-illustration-article.svg"
+                  alt="illustration article"
+                />
+                <div class="content">
+                  <div class="category">Learning</div>
+                  <p class="date">Published 9 Feb 2024</p>
+                  <h1 class="title" id="title">Javascript Best Practices</h1>
+                  <p class="description">
+                    These languages are the backbone of every website, defining
+                    structure, content, and presentation.
+                  </p>
+                </div>
+                <div class="author">
+                  <img
+                    src="/images/image-avatar.webp"
+                    alt="profile user avatar"
+                  />
+                  <p class="title">Greg Hooper</p>
+                </div>
+              </article>
+            </li>
+            <li class="card card-not-found" id="card-not-found">
+              <article>
+                <h2>No search results found</h2>
+                <p>
+                  Sorry, we couldn't find any content matching your search. Here
+                  are some examples of what you could try:
+                </p>
+                <ul>
+                  <li>Check your spelling and try again</li>
+                  <li>Use more general search terms</li>
+                  <li>Browse our popular categories</li>
+                </ul>
               </article>
             </li>
           </ul>
         </section>
       </main>
     </div>
-    <script type="module" src="/src/main.ts"></script>
+    <script type="module" defer src="/src/main.ts"></script>
   </body>
 </html>
