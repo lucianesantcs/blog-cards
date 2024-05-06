@@ -11,7 +11,8 @@
     "lint-fix": "npx eslint --fix",
     "prettier-check": "prettier src --check",
     "prettier-fix": "prettier src --write",
-    "prepare": "husky"
+    "prepare": "husky",
+    "build-gp": "ng build --output-path dist --base-href /blog-cards/"
   },
   "devDependencies": {
     "husky": "^9.0.11",
