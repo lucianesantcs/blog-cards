@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "homepage": "https://lucianesantcs.github.io/blog-cards/",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
@@ -11,9 +12,11 @@
     "lint-fix": "npx eslint --fix",
     "prettier-check": "prettier src --check",
     "prettier-fix": "prettier src --write",
-    "prepare": "husky"
+    "prepare": "husky",
+    "deploy" : "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "sass": "^1.75.0",
