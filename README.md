@@ -1,7 +1,7 @@
 ![image](https://raw.githubusercontent.com/lucianesantcs/blog-cards/main/public/preview.png) 
 # Blog cards
 
- Desafio do site Frontendmentor [Blog preview card](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS) com adição de mais cards e filtro por input. 
+ Desafio do site Frontend Mentor [Blog preview card](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS) com adição de mais cards e filtro por input. 
  <br />
  #### :rocket: [Live Preview](https://lucianesantcs.github.io/blog-cards/)
 
