@@ -16,7 +16,7 @@
  ## :desktop_computer: Executar o projeto
  - Clonar o projeto pelo terminal
  ```
-    git clone https://github.com/lucianesantcs/screentext.git
+    git clone https://github.com/lucianesantcs/blog-cards.git
 ```
 - Instale as dependências 
   - Necessário [NodeJS](https://nodejs.org/en) v18+
