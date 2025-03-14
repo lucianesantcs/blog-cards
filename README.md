@@ -3,17 +3,17 @@
 
  Desafio do site Frontend Mentor [Blog preview card](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS) com adição de mais cards e filtro por input. 
  <br />
- #### :rocket: [Live Preview](https://lucianesantcs.github.io/blog-cards/)
+ #### [Live Preview](https://lucianesantcs.github.io/blog-cards/)
 
 <br />
 
-## :hammer_and_pick: Techs
+## Tecnologias
 - Vite, TypeScript, Sass usando o template [ViteTs-Sass](https://github.com/lucianesantcs/vitets-sass).
 - Deploy no Github Pages
 
  <br />
 
- ## :desktop_computer: Executar o projeto
+ ## Executar o projeto
  - Clonar o projeto pelo terminal
  ```
     git clone https://github.com/lucianesantcs/blog-cards.git
@@ -28,7 +28,7 @@
  
 <br />
 
-## :telephone_receiver: Contato
+## Contato
 
 - Email: lucianesantcs@gmail.com
 - GitHub: [@lucianesantcs](https://github.com/lucianesantcs)
